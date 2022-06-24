@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QuoteBox {
+  max-width:400px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+  background: #FFF;
+  margin-top: 14em;
+}
+
+.QuoteBox  ul{
+  list-style: none;
+  text-align: left;
+  }
+  .QuoteBox  li{
+margin: 10px;
+    }
+  .QuoteBox  button{
+      margin-left: 80%;
+      margin-bottom: 4%;          }
+  .rotate{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    cursor: pointer;
+    border-style: none;
+  }
+  .author {
+    text-align: right;
+  }
