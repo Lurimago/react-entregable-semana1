@@ -27,10 +27,12 @@ function App() {
         />
         <Users
           quotes={quotes}
+          color={color}
           index={index}
         />
         <Authors
           quotes={quotes}
+          color={color}
           index={index}
         />
          <Button
